@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Input from "./Input";
 import Table from "./Table";
 import mortgageCalculations from "./MortgageCalculations";

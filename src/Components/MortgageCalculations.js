@@ -1,7 +1,5 @@
 /**Takes initial mortgage inputs and returns an list of objects for each calculation step. */
 
-import { findByDisplayValue } from "@testing-library/react";
-
 export default function mortgageCalculations(inputValues) {
   // Set initial values
   const principle = Number(inputValues.principle);

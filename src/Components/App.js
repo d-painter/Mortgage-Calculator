@@ -3,7 +3,7 @@ import "./App.css";
 //Standard Imports
 import Header from "./Header";
 import Mortgage from "./Mortgage";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 //Imports for charts
 import LineChart from "./LineChart.js";

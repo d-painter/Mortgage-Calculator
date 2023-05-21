@@ -1,0 +1,70 @@
+html {
+  background-color: #282c34;
+  color: white;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.canvas {
+  display: block;
+  align-self: center;
+  width: 500;
+}
+
+input {
+  border-radius: 5px;
+}
+
+form {
+  display: block;
+  align-self: center;
+  text-align: left;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+}
+
+table {
+  display: block;
+  align-self: center;
+  max-width: 700px;
+  text-align: right;
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  border-spacing:0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;
+}
+
+
+th {
+  padding-bottom: 10px;
+  min-height: 30px;
+  text-align: center;
+}
+
+th, tr {
+  font-weight: 200;
+}
+
+td {
+  border: solid 1px white;
+  padding-right: 5px;
+
+}

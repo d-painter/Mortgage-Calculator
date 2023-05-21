@@ -1,0 +1,23 @@
+import React from "react";
+import { Line } from "react-chartjs-2";
+
+export default function Chart(chartValues) {
+  let json = {
+    name: "chartjs-example",
+    version: "1.0.0",
+    license: "MIT",
+    scripts: {
+      dev: "parcel src/index.html",
+      build: "parcel build src/index.html",
+    },
+    devDependencies: {
+      parcel: "^2.6.2",
+    },
+    dependencies: {
+      "@cubejs-client/core": "^0.31.0",
+      "chart.js": "^4.0.0",
+    },
+  };
+
+  return <Line />;
+}
